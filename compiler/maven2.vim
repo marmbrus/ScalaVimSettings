@@ -15,10 +15,4 @@ endif
 CompilerSet makeprg=mvn
 
 CompilerSet errorformat=
-    \%-G[%\\(WARNING]%\\)%\\@!%.%#,
-    \%E[WARNING]\ %f:%l:\ error:\ %m,
-    \%W[WARNING]\ %f:%l:\ warning:\ %m,
-    \%A%[%^[]%\\@=%f:%l:\ %s:\ %m,
-    \%C[WARNING]\ %p^,
-    \%C[WARNING]\ %m,
-    \%-G%.%#
+    \%E[ERROR]\ %f:%l:\ error:\ %m
